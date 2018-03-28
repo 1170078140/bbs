@@ -1,0 +1,19 @@
+.h_nav{height: 45px;background-color: #075991;}
+.h_nav .nav>li{float: left;padding: 0 15px;color: #fff;line-height: 45px;}
+.h_nav .nav>li:hover{color: yellow;cursor: pointer;}
+.h_nav .nav>li>a{display: block;}
+.main .backtol{height: 30px;padding: 7px 5px;background-color: #fff;margin-bottom: 10px;}
+.middleBox{min-height: 300px;border-top:3px solid #888;}
+.middleBox .readTop{height: 45px;background-color: #F7f7f7;line-height: 45px;padding-left: 15px;font-size: 20px;font-family: "宋体";font-weight: bolder;color: #085991;}
+.middleBox form table{width: 100%; border-collapse: collapse;}
+.middleBox form tr td{min-height: 200px;}
+.middleBox form tr .left{width: 160px;background-color: #f7f7f7;position: relative;}
+.middleBox form tr .left .posT{width: 100%; position: absolute;top: 0;left: 0;}
+.middleBox form tr .left .fatie{padding: 10px 0 0 15px;height: 28px;}
+.middleBox form tr .left .fatie>a{font-size: 12px;font-weight: 700;color: #333;}
+.middleBox form tr .left .pic{width: 100%;text-align: center;}
+.middleBox form tr .left .icons>a{display: block;line-height: 18px; font-size: 12px;color: #333;padding-left: 20px;}
+.middleBox form tr .left img{padding: 3px;border: 1px solid #efefef;}
+.middleBox form tr .right{padding: 10px 20px 0;background-color: #fff;}
+.middleBox form tr .right .text{width:100%;min-height: 500px;}
+.middleBox form tr .right .text .topTitle{line-height: 18px;padding-bottom: 10px;font-size: 12px;color: #ff6600;font-weight: 700;border-bottom: 1px dotted #333;margin-bottom:10px;}

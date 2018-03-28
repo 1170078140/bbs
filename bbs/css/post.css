@@ -1,0 +1,84 @@
+*{margin: 0;padding: 0}
+body,html{ height:100%;
+    background: #f1f2f6;}
+.inner{
+    width:960px;
+    margin:0 auto;
+}
+.bread{
+    height:40px;
+}
+.bread p{
+    line-height:40px;
+    font-size: 12px;
+    padding-left:26px;
+    color: #24324d;
+}
+.bread i{
+    font-family: Simsun;
+    margin: 0 5px;
+    font-style: normal;
+}
+.main{
+    padding-top:20px;
+    background: #fff;
+}
+.title{
+    border-bottom:1px solid #e7f5f5;
+    overflow: hidden;
+}
+.send{
+    float: left;
+    padding:0 10px;
+    line-height:30px;
+    color: #382e2c;
+    font-size:14px;
+    border:1px solid #e7f5f5;
+    border-bottom: none;
+    font-weight: bold;
+}
+.import{
+    margin:20px 0;
+}
+#select{
+    height:25px;
+    padding:0 25px 0 10px;
+    margin:0 10px;
+}
+.import .text{
+    width:350px;
+    height:21px;
+}
+.prompt{
+    background: #fffdea;
+    width:228px;
+    line-height: 24px;
+    padding:0 10px;
+    font-weight: bold;
+    font-size:14px;
+    margin-bottom:20px;
+}
+#submit{
+     line-height: 26px;
+     padding:0 20px;
+     background: #eeaa00;
+     color: #fff;
+     border:1px solid #cd7800;
+     border-radius: 3px;
+     font-weight: bold;
+    cursor: pointer;
+ }
+.preview{
+    line-height: 26px;
+    padding:0 20px;
+    background: #f3f3f3;
+    color: #000;
+    border:1px solid #9fa599;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left:5px;
+    cursor: pointer;
+}
+.i_btn{
+    padding:50px 0 20px 10px;
+}

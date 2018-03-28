@@ -1,0 +1,28 @@
+body{padding-top: 60px;}
+.main{background-color: #fff; width: 920px; min-height: 600px;padding: 0 20px;border-top: 3px solid #878787;margin-top: 10px;margin-bottom: 10px;}
+.main .pageTitle{width: 100%;padding: 7px 5px;border-bottom: 1px solid #ededed;}
+.main .pageTitle h5{font-size: 16px;color: #666;}
+.main .logIn{float: left;width: 713px;min-height: 500px;}
+.main .logIn .alertLine{padding: 5px 8px 5px;background-color: #fffae2;font-size: 12px;color: #333;zoom: 1;margin-bottom: 10px;margin-top: 30px;}
+.main .logIn .info{min-height: 43px;}
+.main .logIn .info dt{float: left;width: 130px;text-align: right;margin-right: 15px;line-height: 28px;font-size: 14px;}
+.main .logIn .info dt>select{height: 26px;font-size: 12px;vertical-align: middle;}
+.main .logIn .info dd{float: left;width: 230px;margin-right: 5px;}
+.main .logIn .info dd div{padding: 3px 3px 5px;border:1px solid #ccc;background-color: #fff;}
+.main .logIn .info dd input{width: 222px;border:0;padding: 0;background: none;padding-top: 2px;}
+.main .logIn .info dd .find{border: none; padding: 5px}
+.main .logIn .info dd .find a{font-size: 10px;color: #075991;text-decoration: none;}
+.main .logIn .info dd .choice{width: 230px;margin-top: 3px;}
+.main .logIn .more{min-height: 75px; position: relative;}
+.main .logIn .more .tips{position: absolute;top: 38px;left: 0;width: 100%;padding: 5px;font-size: 10px;color: #b3b3b3;}
+.main .logIn .info1{min-height: 43px;}
+.main .logIn .info1 .hlog{float: left;width: 130px;text-align: right;margin-right: 15px;line-height: 28px;font-size: 14px;}
+.main .logIn .info1 .danxuan1{float: left;width: 230px;margin-right: 5px;padding-top: 5px;}
+.main .logIn .info1 .danxuan1>label{font-size: 12px;margin-right: 20px;}
+.main .logIn .info1 .danxuan1 .logBtn{width: 55px;height: 29px;border: 1px solid orangered;background-color: orange;border-radius: 3px;zoom: 1;color: #fff;font-size: 14px;font-weight: 700;cursor: pointer;}
+.main .signUp{float: left;width: 190px;height: 200px;padding-top: 7px;margin-left: 10px;}
+.main .signUp .toSign{width: 100%;height: 100%;border-left: 1px dotted #6f6f6f;padding-left: 20px;}
+.main .signUp .toSign>p{font-size: 14px;margin-bottom: 5px;}
+.main .signUp .toSign .goTos{display: block;}
+.main .signUp .toSign button{height: 27px;padding: 0 15px;line-height: 28px;font-size: 14px;font-weight: 700;cursor: pointer;}
+.footer{height:36px;text-align: center;font-size: 12px;color: #666;padding-top: 5px}

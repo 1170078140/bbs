@@ -1,0 +1,43 @@
+a:hover{border-bottom: 1px solid #999;}
+/*1. banner图*/
+.banner{height: 325px;}
+.banner .slider{width: 593px;height: 325px; position: relative;overflow: hidden;}
+.banner ol{position: absolute;bottom:20px;right: 10px;}
+.banner ol li{width: 20px;height: 20px;background: #fff;text-align: center;line-height: 20px;font-size: 12px;color: #1a1a1a;float: left;margin-right: 10px;cursor: pointer;}
+.banner ol .ac{background: #c81623;color:#fff;}
+
+.banner div{font-size: 0;}
+.banner>div{float: left;}
+.banner>div:nth-child(2){margin: 0 10px;}
+.banner .sPic>div:nth-child(1){margin-bottom: 12px;}
+/*2. news*/
+.news{font-size: 0;margin-top: 12px;margin-bottom: 12px;}
+
+/*3. 各板块 公共样式*/
+.block{background-color: #fff;border-top-left-radius: 5px;border-top-right-radius: 5px;margin-bottom: 12px;}
+.block .title{height: 40px;border:1px solid #fcfcfc;border-bottom: 1px solid #ddd;background-color: #fcfcfc;border-top-left-radius: 5px;border-top-right-radius: 5px;font-size: 14px;position: relative;}
+.block .title i{margin: 10px 0 0 10px;display: inline-block;}
+.block .title a{position: absolute;left: 40px;top: 10px;font-weight: bolder;font-size: 14px;color: #27342d;}
+.block .show{float: right;position: absolute;right: 20px;top: 0px;cursor: pointer;}
+.con{padding:0 15px;width: 930px;}
+.con .line{border-bottom: 1px dotted #ddd;}
+.con ul li{float: left;width: 310px;padding: 10px 0;}
+.con .pic{float: left;font-size: 0;margin-right: 20px;}
+.con p{font-size: 14px;height: 22px;color: #666;line-height: 20px;}
+.con .subject{font-size: 16px;font-weight: bolder;color: #005bb3;margin-right: 20px;vertical-align: -1px;}
+.con .subject:hover{border-bottom: 1px solid #005bb3;}
+.con .today{font-size: 14px;color: #ff5f04;}
+
+/*4. 友情链接*/
+.connect .con{padding: 10px 15px;}
+.connect .con img{width: 150px;margin-bottom: 5px;}
+.connect .con a{font-size: 14px;margin: 0 5px;height: 20px;line-height: 20px;display: inline-block;border-bottom: 1px solid #fff;}
+.connect .con a:hover{border-bottom-color: #999;}
+
+/*5. 在线用户*/
+.online .title .infor{font-weight: normal;}
+.online a:hover{border: none;}
+.online .con{padding: 10px 15px;}
+.online .con img{vertical-align: -2px;margin-right: 3px;}
+.online .con a{font-size: 14px;margin: 0 5px;height: 20px;line-height: 20px;display: inline-block;}
+.online .con .open:hover{border-bottom: 1px solid #999;}

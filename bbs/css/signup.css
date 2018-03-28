@@ -1,0 +1,21 @@
+body{padding-top: 60px;}
+.main{border-top: 3px solid #878787;background-color: #fff;padding: 20px 20px 60px 20px;width: 920px;margin-top: 10px;margin-bottom: 10px;}
+h3{color: #60676d;border-bottom: 1px solid #ccc;height: 30px;line-height: 30px;font-size: 16px;margin-bottom: 25px;}
+form{display: block;float: left;width: 700px;padding: 0 10px;font-size: 14px;}
+form .reminder{height: 24px;width: 680px;background-color: #fffae2;padding: 0 10px;font-size: 14px;line-height: 24px;}
+
+form tr{height: 60px;}
+form td:nth-child(1){width: 90px;padding-right: 15px;}
+form input{width: 210px;height: 30px;line-height: 30px;padding: 0 10px;border: 1px solid #979797;}
+form span{color: red;}
+form .address{height: 24px;width: 60px;margin-right: 10px;}
+form .question{width: 210px;height: 24px;}
+label input{width: 15px;height: 15px;vertical-align: -2px;margin-right: 3px;}
+label a{color: #005dbe;margin-left: 3px;}
+.signup{width: 90px;height: 27px;border: 1px solid #e56701;background-color: #f7a10c;line-height: 27px;color: #fff;cursor: pointer;}
+form .error i{position: absolute;left: 5px;top: 4px;}
+form .error span{display: inline-block;width: 90px;height: 27px;line-height: 27px;border: 1px solid #f8a9be;background-color: #fff0f3;color: #b72629;font-size: 12px;position: relative;padding-left: 28px;}
+
+.login{width: 164px;float: left;height: 200px;border-left: 1px solid #ccc;padding-left: 35px;margin-top: 5px;}
+.login p{font-size: 14px;height: 30px;line-height: 30px;}
+.login a{width: 90px;height: 27px;border: 1px solid #9a9c9b;background-color: #eee;cursor: pointer;display: block;text-align: center;line-height: 27px;font-size: 14px;color: #000;font-weight: bolder;}

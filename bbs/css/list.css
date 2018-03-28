@@ -1,0 +1,379 @@
+*{margin: 0;padding: 0}
+body,html{ height:100%;
+    background: #f1f2f6;
+    font-size:12px;}
+ul,li{list-style: none}
+em, cite {
+    font-style: normal;
+}
+td, th, div {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+textarea, input, select {
+    font-size: 12px;
+    vertical-align: middle;
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+img {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.cc:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.inner{
+    width:960px;
+    margin:0 auto;
+}
+.bread{
+    height:40px;
+    font-size: 12px;
+}
+.bread p{
+    line-height:40px;
+    float: left;
+    padding-left:26px;
+    color: #24324d;
+}
+.bread i{
+    font-family: Simsun;
+    font-style: normal;
+    margin: 0 5px;
+}
+.fr {
+    float: right;
+    line-height: 40px;
+}
+.fr li {
+    float: left;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mb5 {
+    margin-bottom: 5px;
+}
+.fr li a {
+    float: left;
+}
+.mr5 {
+    margin-right: 5px;
+}
+#pw_content {
+    background: #F1F2F6;
+    border-top: 3px solid #888888;
+}
+.cc {
+    padding: 7px 5px;
+}
+.f_tree {
+    background: #fff;
+}
+#sidebar .content_thread, .content_ie {
+    background: #fff;
+}
+.mb10 {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.hB{
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.f14 {
+    font-size: 14px;
+}
+.fl {
+    float: left;
+}
+.mr5 {
+    margin-right: 5px;
+}
+#sidebar h2{
+    font-weight: 700;
+    display: inline;
+}
+.threadInfo {
+    background: #fff;
+    padding: 10px 0;
+}
+.vt, .vt td, .vt th {
+    vertical-align: top;
+}
+.s6 {
+    color: #666;
+}
+.s2 {
+    color: #ff6600;
+}
+.gray2 {
+    color: #bbb;
+}
+.content_ie #c {
+    background: #fff;
+}
+.post {
+    background: url(../images/post.png) no-repeat;
+    color: #fff;
+}
+.post, .replay {
+    height: 30px;
+    overflow: hidden;
+    width: 74px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+}
+.pages {
+    float: left;
+    line-height: 21px;
+    height: 21px;
+}
+.pages b, .pages a:hover {
+    background-color: #72b0d7;
+    color: #ffffff;
+    border: 1px solid #72b0d7;
+}
+.pages b, .pages a:hover, .pages .current {
+    background-color: #76c3fb;
+    color: #ffffff;
+    border: 1px solid #76c3fb;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.pages a, .pages b {
+    display: block;
+    float: left;
+    margin-right: 3px;
+}
+.b, b {
+    font-weight: 700;
+}
+.pages a {
+    border: 1px solid #f1f2f6;
+    background-color: #f9f9f9;
+    color: #666;
+    padding: 0 7px;
+}
+.pages a.pages_next {
+    padding-right: 16px;
+    background-image: url(next.png);
+    background-position: 48px center;
+    background-repeat: no-repeat;
+}
+.pages .fl {
+    color: #666;
+    padding: 0 6px 0 3px;
+}
+.pages input {
+    border: 1px solid #f1f2f6;
+}
+.pages input {
+    padding: 0;
+    float: left;
+    border: 1px solid #bdcfdd;
+    background: #ffffff;
+    padding:2px;
+    float:left;
+    margin: 0 2px 0 0;
+    height: 17px;
+    width: 22px;
+}
+.pages button {
+    background-color: #f4f8fb;
+    color: #666;
+    border-left: 1px solid #CCC;
+}
+.pages button{
+    height: 23px;
+    line-height: 23px;
+    background-color: #f4f8fb;
+    padding: 0 4px;
+    color: #666;
+    border: 1px solid #bdcfdd;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    overflow: visible;
+    _overflow: auto;
+}
+.sidePd10 .tabA{
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-bottom: 1px solid #AAAAAA;
+}
+.tabA{
+    border-bottom: 1px solid #f1f2f6;
+    height: 28px;
+    padding: 0 5px;
+}
+.sidePd10 .tabA #lampnewtzdh{
+    padding: 0 10px;
+}
+.tabA ul {
+    _position: absolute;
+    font-size: 14px;
+    overflow: hidden;
+}
+.tabA li {
+    float: left;
+    margin-left: 5px;
+}
+.main-wrap #main .cc {
+    padding: 7px 5px;
+}
+#ajaxtable .pw_ulA {
+    background: #fff;
+    border-bottom: 1px solid #EFEFEF;
+    line-height: 25px;
+    height: auto;
+}
+.pw_ulA li {
+    float: left;
+    border-right: 1px solid #ccc;
+    margin-top: 8px;
+}
+.pw_ulA li.current a {
+    color: #333;
+    font-weight: 700;
+}
+.pw_ulA li a {
+    line-height: 14px;
+    height: 14px;
+    padding: 0 10px;
+    float: left;
+    color: #075991;
+    font-weight: 100;
+    white-space: nowrap;
+}
+.tabA li.current a {
+    color: #333;
+    border-color: #f1f2f6;
+    line-height: 28px;
+    font-weight: 700;
+    background: #f1f2f6;
+    position: relative;
+}
+.tabA li.current a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-style: solid solid none;
+    border-width: 3px 1px 0;
+    color: #333333;
+    font-weight: 700;
+    line-height: 27px;
+    position: relative;
+}
+.tabA li a {
+    float: left;
+    color: #333;
+    line-height: 28px;
+    padding: 0 20px;
+    overflow: hidden;
+    border-bottom: 0;
+}
+.tr2 td, .tr2 th {
+    padding: 5px;
+    color: #888888;
+    background: #ffffff;
+    border-bottom: 1px solid #e8f5fb;
+}
+span.checkbox, span.checkbox_checked {
+    background: url(pwicon/checkbox.png) 0 4px no-repeat;
+    padding-left: 15px;
+    cursor: pointer;
+    display: inline-block;
+    -moz-user-select: none;
+    position: relative;
+}
+.thread_sort a {
+    color: #075991;
+}
+.gray {
+    color: #999;
+}
+.thread_sort a.s6 {
+    color: #666;
+}
+.author {
+    width: 85px;
+}
+.tr4 td {
+    padding: 3px 5px;
+    border-bottom: 1px solid #e8f5fb;
+    color: #888888;
+    background: #fff;
+}
+.tr3 td, .tr3 th {
+    border-bottom: 2px dotted #ddd;
+}
+.tar {
+    text-align: right;
+}
+.tr3 {
+    background: #fff;
+}
+.tr3 td, .tr3 th {
+    padding: 5px;
+}
+.tr3 td.icon {
+    padding: 5px 0;
+}
+.tr3 td.subject {
+    padding-left: 10px;
+}
+.f14 {
+    font-size: 14px;
+}
+.s2 {
+    color: #ff6600;
+}
+.w {
+    white-space: nowrap;
+}
+.tpage {
+    font-family: Simsun;
+}
+.author a {
+    color: #444;
+}
+.author p, .author p a {
+    color: #999;
+    font-size: 11px;
+    -webkit-text-size-adjust: none;
+}
+td.num {
+    color: #444;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+}
+td.num em {
+    color: #075991;
+}
+
+
+
+
+
+
+
+
